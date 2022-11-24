@@ -5,7 +5,7 @@
 ## Criteria A: Planning
 
 ## Problem definition
-Daiichiro, who will turn 16 this year and lives in Tokyo. He has grown up in the concrete jungle of Tokyo, where he was comfortable. Since coming to a boarding school in Karuizawa, he has been suffering from health problems because he cannot tolerate the difference in temperature and humidity. Recently, He have been thinking about quitting the school in Karuizawa and returning to the lukewarm environment of Tokyo. However, we do not want to lose him as an irreplaceable friend. Therefore, we are thinking of making a presentation that will be useful for his future school life. Specifically, we want to tell him the appropriate indoor heating settings depending on the outdoor temperature and humidity. We are also planning to tell him what to wear. To do this, we need to measure changes in indoor and outdoor temperature and humidity over a 48-hour period. And we do not have an abundant budget to solve this problem. So we need a resource that can measure temperature and humidity at a low cost. And since we are Prepper (people preparing for the end of the world), we do not use existing tools to measure temperature and humidity. As a computer, we need to solve this problem using primitive and simple tools.
+Daiichiro is a parent who has a student at ISAK. He is very concerned about his son's recent health problems. He is a data scientist, so he is very logical and only believes in data. And he wants data on the indoor and outdoor temperature and humidity in his son's room for 48 hours. And that data needs to be more accurate. And since the budget he is giving me is small, I need to get the resources at a low price.
 
 
 ## Proposed Solution
