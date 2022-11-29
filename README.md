@@ -47,7 +47,7 @@ The
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
 | 1       | Write the Problem context                        | 10min         | Nov 22                 | A         |
-
+| 2       |research about raspberry pi                       | 25min         | Nov 29                 | A         |
 ## Test Plan
 
 # Criteria C: Development
