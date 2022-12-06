@@ -56,8 +56,24 @@ Considering the client requirements an adequate solution includes a low cost sen
 ## List of techniques used
 
 ## Development
+## MVP-Minimum Viable Product
+As a prototype for a method of measuring and collecting temperature and humidity data, we have created MVP, which runs in Python code on a Raspberry Pi connected to a single DHT sensor. This code allows the Raspberry Pi to read a set of temperature and humidity data from the DHT sensor and display it as output on the terminal. For more information, see the Python code below.
 
 
+```.py
+import Adafruit_DHT
+import time
+
+DHT_SENSOR = Adafruit_DHT.DHT11
+PINS=[23, 18, 15, 14]
+
+
+for pin in PINS:
+   humidity, temperature = None, None
+   while humidity is None or temperature is None:
+       humidity, temperature= Adafruit_DHT.read_retry(DHT_SENSOR, pin)
+   print(f"PIN No. {pin}: ""Humidity: {} %, Temperature: {} C".format(humidity, temperature))
+```
 # Criteria D: Functionality
 
 A 7 min video demonstrating the proposed solution with narration
