@@ -46,12 +46,12 @@ Design Statement, We are creating a poster for our client, daiichirom. To do thi
 |       | meet with client　  | Talk with the client to dicuss the problems they are facing and brainstorm solutions to create a plan to help the client resolve the problems　|  15min | Nov 22| A
 |       |Brainstorm and write the problem definition| Both write problem definition and organize files for this program in githab| 30min| Nov 22 |B
 |       | Wirte Design statement | A clear outline of the final goal of the project and the components to be completed | 60min |Nov 23
-|       | Gathering materials and assigning tasks to the scope of work |
-|       |Write the Problem context                        |we understood how the code works          |  10m in          |  Nov 24         | A 
-|        |research about raspberry pi                      |research about raspberry pi features and benefits and what can be implemented          |  25min          |  Nov 29         | A
+|       | Gathering materials and assigning tasks to the scope of work |Procure the materials needed to build the equipment to measure temperature and humidity in the dormitory and bring the materials back home with the sole intention of building a weather station for the client  | 60min |Nov
+|       |Write the Problem context             |we understood how the code works          |  10m in          |  Nov 24         | A 
+|       |research about raspberry pi                      |research about raspberry pi features and benefits and what can be implemented          |  25min         |  Nov 29         | A
 |        |Write code for program                           |  We wrote code so that the sensor could periodically measure humidity and temperature.        |  45min          |  Nov 30         | A
 |    |We wired the raspberry pi, sensors and raspberry pi| Using a breadboard, I was able to wire accurately | 45min | Nov 31| A    
-|Create a system that "uploads the obtained data to the server.|      |  120min  | Dec 6 |B
+|    |Create a system that "uploads the obtained data to the server |      |  120min  | Dec 6 |B
 
 ## Test Plan
 
