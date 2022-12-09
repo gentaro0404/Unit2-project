@@ -42,11 +42,14 @@ Considering the client's budget constraints and hardware requirements, the softw
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-| 1       |Write the Problem context                        |we understood how the code works          |  10min          |  Nov 22         | A 
-| 2       |research about raspberry pi                      |research about raspberry pi features and benefits and what can be implemented          |  25min          |  Nov 29         | A
-| 3       |Write code for program                           |  We wrote code so that the sensor could periodically measure humidity and temperature.        |  45min          |  Nov 30         | A
-|4    |We wired the raspberry pi, sensors and raspberry pi| Using a breadboard, I was able to wire accurately | 45min | Nov 31| A    
-|5      |Create a system that "uploads the obtained data to the server.| |     |  50min  | Dec 6 |B
+|       | meet with client　  | Talk with the client to dicuss the problems they are facing and brainstorm solutions to create a plan to help the client resolve the problems　|  15min | Nov 22| A
+|       |Brainstorm and write the problem definition| Both write problem definition and organize files for this program in githab| 30min| Nov 22 |B
+
+|       |Write the Problem context                        |we understood how the code works          |  10min          |  Nov 22         | A 
+|        |research about raspberry pi                      |research about raspberry pi features and benefits and what can be implemented          |  25min          |  Nov 29         | A
+|        |Write code for program                           |  We wrote code so that the sensor could periodically measure humidity and temperature.        |  45min          |  Nov 30         | A
+|    |We wired the raspberry pi, sensors and raspberry pi| Using a breadboard, I was able to wire accurately | 45min | Nov 31| A    
+|Create a system that "uploads the obtained data to the server.|      |  120min  | Dec 6 |B
 
 ## Test Plan
 
