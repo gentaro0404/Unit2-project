@@ -1,4 +1,5 @@
 ![gachapin.jpeg](gachapin.jpeg)
+*Post, The Huffington. “ガチャピン、放送事故で透明に。松雪彩花アナのフォローに「神対応」の声.” ハフポスト, ハフポスト, 5 Feb. 2016, https://www.huffingtonpost.jp/2016/02/05/gachapin-weathernews_n_9173020.html.*
 
 # Unit 2: A Distributed Weather Station for ISAK
 
