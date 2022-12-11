@@ -1,4 +1,4 @@
-![weather.png](weather_asbt.png)
+![gachapin.jpeg](gachapin.jpeg)
 
 # Unit 2: A Distributed Weather Station for ISAK
 
