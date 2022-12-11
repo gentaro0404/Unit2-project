@@ -65,18 +65,55 @@ As a prototype for a method of measuring and collecting temperature and humidity
 
 
 ```.py
+import requests
 import Adafruit_DHT
+import datetime
 import time
 
-DHT_SENSOR = Adafruit_DHT.DHT11
-PINS=[23, 18, 15, 14]
+user = {'username': 'masamu','password':'123'}
+req = requests.post('http://192.168.6.142/login',json = user)
+access_token = req.json()['access_token']
+print(req.json())
+auth = {"Authorization": f"Bearer {access_token}"}
+
+def convert(a):
+    if a == 2:
+        return 0
+    if a == 3:
+        return 1
+    if a == 4:
+        return 2
+    if a == 17:
+        return 3
+    
+    
+def sensor(a):
+    today = datetime.datetime.now()
+    DHT_SENSOR = Adafruit_DHT.DHT11
+    DHT_PIN = a
+    humidity,temperature = Adafruit_DHT.read(DHT_SENSOR,DHT_PIN)
+    while humidity == 'null' or temperature == 'null':
+        humidity,temperature = Adafruit_DHT.read(DHT_SENSOR,DHT_PIN)
+    
+    new_record ={"datetime":str(datetime.datetime.now()),"sensor_id":472 + convert(a), "value":humidity}
+    r = requests.post('http://192.168.6.142/reading/new', json=new_record, headers=auth)
+    
+    print(r.json())
+    new_record ={"datetime":str(datetime.datetime.now()),"sensor_id":476 + convert(a), "value":temperature}
+    r = requests.post('http://192.168.6.142/reading/new', json=new_record, headers=auth)
+    print(r.json())
+
+    
+#    time.sleep(1)
 
 
-for pin in PINS:
-   humidity, temperature = None, None
-   while humidity is None or temperature is None:
-       humidity, temperature= Adafruit_DHT.read_retry(DHT_SENSOR, pin)
-   print(f"PIN No. {pin}: ""Humidity: {} %, Temperature: {} C".format(humidity, temperature))
+
+for i in range(0,172801,300):
+    sensor(2)
+    sensor(3)
+    sensor(4)
+    sensor(17)
+    time.sleep(300)
 ```
 # Criteria D: Functionality
 
