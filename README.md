@@ -65,55 +65,68 @@ As a prototype for a method of measuring and collecting temperature and humidity
 
 
 ```.py
-import requests
-import Adafruit_DHT
-import datetime
-import time
-
-user = {'username': 'masamu','password':'123'}
-req = requests.post('http://192.168.6.142/login',json = user)
-access_token = req.json()['access_token']
-print(req.json())
-auth = {"Authorization": f"Bearer {access_token}"}
-
-def convert(a):
-    if a == 2:
-        return 0
-    if a == 3:
-        return 1
-    if a == 4:
-        return 2
-    if a == 17:
-        return 3
-    
     
 def sensor(a):
     today = datetime.datetime.now()
     DHT_SENSOR = Adafruit_DHT.DHT11
     DHT_PIN = a
     humidity,temperature = Adafruit_DHT.read(DHT_SENSOR,DHT_PIN)
-    while humidity == 'null' or temperature == 'null':
+  　　　　while humidity == None or temperature == None:
         humidity,temperature = Adafruit_DHT.read(DHT_SENSOR,DHT_PIN)
-    
-    new_record ={"datetime":str(datetime.datetime.now()),"sensor_id":472 + convert(a), "value":humidity}
-    r = requests.post('http://192.168.6.142/reading/new', json=new_record, headers=auth)
-    
-    print(r.json())
-    new_record ={"datetime":str(datetime.datetime.now()),"sensor_id":476 + convert(a), "value":temperature}
-    r = requests.post('http://192.168.6.142/reading/new', json=new_record, headers=auth)
-    print(r.json())
+ 
+```
+### Server initialization
+Logging in, registering and creating 8 sensors in the server. Code is as below:
+```.py
+import requests
 
-    
-#    time.sleep(1)
+'''
+new_user = {'username': 'masamu','password':'123'}
+req = requests.post('http://192.168.6.142/register',json = new_user)
+print(req.json())
+'''
+
+user = {'username': 'masamu','password':'123'}
+req = requests.post('http://192.168.6.142/login',json = user)
+access_token = req.json()['access_token']
+print(req.json())
 
 
+'''auth = {"Authorization": f"Bearer {access_token}"}
 
-for i in range(0,172801,300):
-    sensor(2)
-    sensor(3)
-    sensor(4)
-    sensor(17)
-    time.sleep(300)
+count = 0
+for i in range(1,9):
+    if i >= 5:
+        type = 'Temperature'
+        unit = 'C'
+    else:
+        type = 'Humidity'
+        unit = '%'
+    sensorname = f'sensor_masagen_{type}_{i}'
+    print(i,type,sensorname)
+    new_sensor ={ "type": type,"location": "R2-12A", "name": sensorname,"unit":unit }
+    r = requests.post('http://192.168.6.142/sensor/new', json=new_sensor, headers=auth)
+    print(r.json())'''
+
+
+auth = {"Authorization": f"Bearer {access_token}"}
+'''
+new_sensor ={ "type": 'Temperature',"location": "R2-12A", "name": 'masamu_test',"unit":'C' }
+r = requests.post('http://192.168.6.142/sensor/new', json=new_sensor, headers=auth)
+print(r.json())
+'''
+r = requests.get('http://192.168.6.142/sensors')
+print(r.json()['readings'])
+for i in r.json()['readings'][0]:
+    if i['owner_id'] == 10:
+        print(i)
+
+
+r = requests.get('http://192.168.6.142/user/readings', headers=auth)
+print(r.json())
+for i in r.json():
+    print(i)
+
 ```
 # Criteria D: Functionality
 
