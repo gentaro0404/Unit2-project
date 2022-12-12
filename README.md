@@ -67,6 +67,9 @@ Design Statement, We are creating a poster for our client, daiichirom. To do thi
 | | Create coding to graph school and room temperature and humidity data | Create a scatter plot graph using a nonlinear best-fit function|110 min | Dec 8 | B
 |  |Pilot graphing of data | Use outdoor data and apply it to the code you have created. | 50 min | Dec 8 | A
 |  |Coding prototype graphing for one specific data | When plotting graphs from all sensors and the average of one specific set of data (room temperature)| 80 min | Dec 9 | B
+|   |Outline video outlines, summarize data and images, and present the final product/solution.| Gather all information necessary to create an organized video to showcase the product. | 80 min | Dec 9 | B
+|  | Find out how to write a science poster | Research to write to cover the Criteria | 50 min | Dec 9 |A
+
 
 ## Test Plan
 
