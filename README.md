@@ -89,8 +89,9 @@ We stored the temperature and humidity data  in both seperate database csv files
 ## Test Plan
 | Software Test Type | Input | Process | Planned Output  |
 |------|-------------|----------|---------|
-| Integration Testing | Raspberry Pi and VNC Viewer | 1. Download vnc viewer. 2. Input raspberry pi address into vnc viewer. 3. Access raspberry pi through VNC viewer using username and password. | VNC viewer will authenticate username and password and be able to connect to raspberry pi remotely. |
-| Unit Testing | Code to receive information from DHT sensor | 1. Run code. 2. Wait for output from DHT sensor. | Confirm that DHT sensor is functioning properly.|
+| Integration Testing | Raspberry Pi and VNC Viewer | Download Raspberry Pi, VNC Viewer, vnc viewer, enter the address of the raspberry pi in the vnc viewer, access the raspberry pi using the username and password from the VNC viewer. | Authenticate the user name and password in the VNC viewer to be able to connect remotely to the Raspberry Pi. |
+| Unit Testing | Code to receive information from DHT sensor | Run code and wait for output from DHT sensor. | Verify that the DHT sensor is functioning properly.|
+| Unit testing | Code to obetain data from DHT11s (MVP) | Run code and Input pin number odf senser(
 
 # Criteria C: Development
 
