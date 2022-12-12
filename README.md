@@ -41,6 +41,24 @@ Design Statement, We are creating a poster for our client, daiichirom. To do thi
 **Fig.2** shows the system diagram for the proposed solution (**HL**). The indoor variables will be measured using a Raspberry PI and four DHT11 sensors located inside a room. Four sensors are used to determine more precisely the physical values and include measurement uncertainty. The outdoor variables will be requested to the remote server using a GET request to the API of the server at ```192.168.6.147/readings```. The local values are stored in a CSV database locally and POST to the server using the API and TOKEN authentication. A laptop computer is used for remotely controlling the local Rasberry Pi using a Dekptop sharing application (VNC Viewer). (Optional) Data from the local raspberry is downloaded to the laptop for analysis and processing.
 
 
+## How data is stored
+We stored the temperature and humidity data  in both seperate database csv files, and sent the datas to the sensors created in the server everytime the set of data is collected
+
+## Flow Diagram 1 - Main File
+![IMG_0504]()
+![IMG_0505]()
+**Fig.3** shows the flow diagram of the main file that collects datas from the server and stores them into csv files and sends them to the server.
+
+## Flow Diagram 2 - Server Creation
+![Untitled-19]()
+![Untitled-20 3]()
+
+**Fig.4** shows the flow diagram of the initiation of accounts for the servers and sensors.
+
+## Flow Diagram 3 - MVP
+![Untitled-21]()
+**Fig.5** shows the flow diagrams for the minimum viable product for the project.
+
 ### Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
