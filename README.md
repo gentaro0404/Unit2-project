@@ -64,6 +64,9 @@ Design Statement, We are creating a poster for our client, daiichirom. To do thi
 |   | Draw 3 flow diagrams of aspects of code.　| I drew FLOW diagrams for the MVP, the server code, and the overall code. | 200min | Dec 7 |A
 | | Find out the appropriate temperature and humidity for human living | To obtain criteria for determining appropriate/inappropriate humidity and temperature levels on the UWC ISAK campus | 30 min |Dec 7 | B
 |  |Collect data from outdoor sensors|To compare outdoor indoor temperature changes from the posted data. |    180 min | Dec 7 | A
+| | Create coding to graph school and room temperature and humidity data | Create a scatter plot graph using a nonlinear best-fit function|110 min | Dec 8 | B
+|  |Pilot graphing of data | Use outdoor data and apply it to the code you have created. | 50 min | Dec 8 | A
+|  |Coding prototype graphing for one specific data | When plotting graphs from all sensors and the average of one specific set of data (room temperature)| 80 min | Dec 9 | B
 
 ## Test Plan
 
