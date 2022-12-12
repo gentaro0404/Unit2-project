@@ -72,10 +72,25 @@ Design Statement, We are creating a poster for our client, daiichirom. To do thi
 
 
 ## Test Plan
+| Software Test Type | Input | Process | Planned Output  |
+|------|-------------|----------|---------|
+| Integration Testing | Raspberry Pi and VNC Viewer | 1. Download vnc viewer. 2. Input raspberry pi address into vnc viewer. 3. Access raspberry pi through VNC viewer using username and password. | VNC viewer will authenticate username and password and be able to connect to raspberry pi remotely. |
+| Unit Testing | Code to receive information from DHT sensor | 1. Run code. 2. Wait for output from DHT sensor. | Confirm that DHT sensor is functioning properly.|
 
 # Criteria C: Development
 
 ### List of techniques used
+| Technique |
+|-----------|
+| Posting to a remote server with server API. |
+| Retrieving data from a remote server with server API and requests library. |
+| For loops in order to run code under certain conditions. For example, to get readings for multiple DHT11 sensors with one for loop of code. Utilizing a for loop is more efficient than creating a code for each sensor separately. |
+| Creating lists (in order to save data from DHT11 sensors by temperature and humidity). |
+| Creating CSV files (in order to save data from DHT11 sensors by temperature and humidity). |
+| Plot median, mean, maximum, minimum, standard deviation and a non linear model using python. |
+| Predicting temperature and humidity values based on line of best fit equation (non linear model). |
+| Smoothing data on a graph. |
+
 
 ### Development
 
