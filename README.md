@@ -51,8 +51,13 @@ Design Statement, We are creating a poster for our client, daiichirom. To do thi
 |       |Write the Problem context             |we understood how the code works          |  10min          |  Nov 24         | A 
 |       |research about raspberry pi                      |research about raspberry pi features and benefits and what can be implemented          |  25min         |  Nov 29         | A
 |        |Write code for program                           |  We wrote code so that the sensor could periodically measure humidity and temperature.        |  45min          |  Nov 30         | A 
-|    |Test run for sensor |Write and run a code that measures once every 5 seconds for testing.| 60min |Dec 1| A
-|    |We wired the raspberry pi, sensors and raspberry pi| Using a breadboard, I was able to wire accurately | 45min | Nov 31| A    
+|    |Test run for sensor |Write and run a code that measures once every 5 seconds for testing.| 60min | Nov 30| A
+|    |We wired the raspberry pi, sensors and raspberry pi| Using a breadboard, I was able to wire accurately | 45min | Nov 30| A 
+|    |Connect raspberry pi to computer and test run of sensors. | Check that the connection between the sensor and the Raspberry Pi is made properly. Complete the temporary assembly of the device. | 80 min | Dec 1 | A
+|    |Create MVP | After confirming that the basic structure and function of the product is working properly, we move on to the final finished product. | 80 min | B
+|    |  Register user to server and obtain access code. | Create a user with a secure username and password to access the server. Obtain an access code to log in to the server and be able to post | 70min | Dec 2 | C
+|    | 
+|    |We wired the raspberry pi, sensors and raspberry pi| Using a breadboard, I was able to wire accurately | 45min | Dec 1| A     
 |    |Create a system that "uploads the obtained data to the server |      |  120min  | Dec 6 |B
 
 ## Test Plan
