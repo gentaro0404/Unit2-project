@@ -59,9 +59,9 @@ Design Statement, We are creating a poster for our client, daiichirom. To do thi
 |    |We wired the raspberry pi, sensors and raspberry pi| Using a breadboard, I was able to wire accurately | 45min | Dec 1| A
 |    | Make cron tab |This is to ensure that DHT's sensors send data to the computer at 5 minute intervals.	| 45 min | Dec 1 |C
 |    |Create a system that "uploads the obtained data to the server | Transmits humidity and temperature data to server every 5 minutesv    |  120min  | Dec 3 |B
-|   |Run code for 48 hours in order to collect temperature and humidity data in R2-12 A.| Take R2-12A humidity and temperature data at 5-minute intervals for 48 hours.| Dec 3-5 |C
-| |Unexplained trouble, code stops.And fixed|It was discovered that the WIfi connection had been lost in the process. Additional necessary tools were installed to solve the problem.| Dec 6 |B
-|   | Draw 3 flow diagrams of aspects of code.
+|   |Run code for 48 hours in order to collect temperature and humidity data in R2-12 A.| Take R2-12A humidity and temperature data at 5-minute intervals for 48 hours.| 48 hrs |Dec 3-5 |C
+| |Unexplained trouble, code stops.And fixed|It was discovered that the WIfi connection had been lost in the process. Additional necessary tools were installed to solve the problem.|  210 min |Dec 6 |B
+|   | Draw 3 flow diagrams of aspects of code.　｜I drew FLOW diagrams for the MVP, the server code, and the overall code.
 
 ## Test Plan
 
