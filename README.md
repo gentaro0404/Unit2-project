@@ -45,18 +45,15 @@ Design Statement, We are creating a poster for our client, daiichirom. To do thi
 We stored the temperature and humidity data  in both seperate database csv files, and sent the datas to the sensors created in the server everytime the set of data is collected
 
 ## Flow Diagram 1 - Main File
-![IMG_0504]()
-![IMG_0505]()
+![project_main_flow.jpg](project_main_flow.jpg)
 **Fig.3** shows the flow diagram of the main file that collects datas from the server and stores them into csv files and sends them to the server.
 
 ## Flow Diagram 2 - Server Creation
-![Untitled-19]()
-![Untitled-20 3]()
-
+![project_server_flow.jpg](project_server_flow.jpg)
 **Fig.4** shows the flow diagram of the initiation of accounts for the servers and sensors.
 
 ## Flow Diagram 3 - MVP
-![Untitled-21]()
+![project_MVP_flow.jpg](project_MVP_flow.jpg)
 **Fig.5** shows the flow diagrams for the minimum viable product for the project.
 
 ### Record of Tasks
