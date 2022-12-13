@@ -555,6 +555,7 @@ function for h4
 ```
 
 ![average hum.JPG](average hum.JPG)
+
 **Fig.7** 
 Graph of average, minimum, maximum, and median outdoor humidity and temperature
 
