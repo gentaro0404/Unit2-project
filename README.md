@@ -554,22 +554,22 @@ function for h4
 1.4753813620259307e-07 -7.08959508039189e-05 0.014504431361656557 19.36712353683
 ```
 
-![average hum.JPG](average hum.JPG)
+![average_hum.JPG](average_hum.JPG)
 
 **Fig.7** 
 Graph of average, minimum, maximum, and median outdoor humidity and temperature
 
-![average temp.JPG](average temp.JPG)
+![average_temp.JPG](average_temp.JPG)
 
 **Fig.8** 
 Graph of average, minimum, maximum, and median outdoor humidity and temperature
 
-![temperature for each sensor.JPG](temperature for each sensor.JPG)
+![temperature_for_each_sensor.JPG](temperature_for_each_sensor.JPG)
 
 **Fig.9** 
 Graph of average, minimum, maximum, and median outdoor humidity and temperature
 
-![humidity for each sensor.JPG](humidity for each sensor.JPG)
+![humidity_for_each_sensor.JPG](humidity_for_each_sensor.JPG)
 
 **Fig.10** 
 Graph of average, minimum, maximum, and median outdoor humidity and temperature
