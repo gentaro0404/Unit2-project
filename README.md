@@ -557,22 +557,20 @@ function for h4
 ![average_hum.JPG](average_hum.JPG)
 
 **Fig.7** 
-Graph of average, minimum, maximum, and median outdoor humidity and temperature
-
+Humidity averaged from four sensors
 ![average_temp.JPG](average_temp.JPG)
 
 **Fig.8** 
-Graph of average, minimum, maximum, and median outdoor humidity and temperature
+Temperature averaged from four sensors
 
 ![temperature_for_each_sensor.JPG](temperature_for_each_sensor.JPG)
 
 **Fig.9** 
-Graph of average, minimum, maximum, and median outdoor humidity and temperature
-
+temperature averaged from each of the four sensors for 48 hours and the forecast for the next 12 hours
 ![humidity_for_each_sensor.JPG](humidity_for_each_sensor.JPG)
 
 **Fig.10** 
-Graph of average, minimum, maximum, and median outdoor humidity and temperature
+humidity obtained from the average value of each of the four sensors for 48 hours and the forecast for the next 12 hours.
 
 # Criteria D: Functionality
 
