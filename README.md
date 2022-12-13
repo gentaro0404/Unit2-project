@@ -361,7 +361,8 @@ plt.ylabel('red = tempareture(C)\nblue = humidity(%)')
 plt.title('outdoor data')
 plt.show()
 ```
-
+### Result
+Derived from data, statistical data
 ```.py
 mean of temp: 24.6
 
