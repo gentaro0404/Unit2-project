@@ -59,40 +59,49 @@ We stored the temperature and humidity data  in both seperate database csv files
 ### Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-|       | meet with client　  | Talk with the client to dicuss the problems they are facing and brainstorm solutions to create a plan to help the client resolve the problems　|  15min | Nov 22| A
-|       |Brainstorm and write the problem definition| Both write problem definition and organize files for this program in githab| 30min| Nov 22 |B
-|       | Wirte Design statement | A clear outline of the final goal of the project and the components to be completed | 60min |Nov 23
-|       | Gathering materials and assigning tasks to the scope of work |Procure the materials needed to build the equipment to measure temperature and humidity in the dormitory and bring the materials back home with the sole intention of building a weather station for the client  | 60min |Nov
-|       |Write the Problem context             |we understood how the code works          |  10min          |  Nov 24         | A 
-|       |research about raspberry pi                      |research about raspberry pi features and benefits and what can be implemented          |  25min         |  Nov 29         | A
-|        |Write code for program                           |  We wrote code so that the sensor could periodically measure humidity and temperature.        |  45min          |  Nov 30         | A 
-|    |Test run for sensor |Write and run a code that measures once every 5 seconds for testing.| 60min | Nov 30| A
-|    |We wired the raspberry pi, sensors and raspberry pi| Using a breadboard, I was able to wire accurately | 45min | Nov 30| A 
-|    |Connect raspberry pi to computer and test run of sensors. | Check that the connection between the sensor and the Raspberry Pi is made properly. Complete the temporary assembly of the device. | 80 min | Dec 1 | A
-|    |Create MVP | After confirming that the basic structure and function of the product is working properly, we move on to the final finished product. | 80 min | B
-|    |  Register user to server and obtain access code. | Create a user with a secure username and password to access the server. Obtain an access code to log in to the server and be able to post | 70min | Dec 1 | C
-|    |We wired the raspberry pi, sensors and raspberry pi| Using a breadboard, I was able to wire accurately | 45min | Dec 1| A
-|    | Make cron tab |This is to ensure that DHT's sensors send data to the computer at 5 minute intervals.	| 45 min | Dec 1 |C
-|    |Create a system that "uploads the obtained data to the server | Transmits humidity and temperature data to server every 5 minutesv    |  120min  | Dec 3 |B
-|   |Run code for 48 hours in order to collect temperature and humidity data in R2-12 A.| Take R2-12A humidity and temperature data at 5-minute intervals for 48 hours.| 48 hrs |Dec 3-5 |C
-| |Unexplained trouble, code stops.And fixed|It was discovered that the WIfi connection had been lost in the process. Additional necessary tools were installed to solve the problem.|  210 min |Dec 6 |B
-|   | Draw 3 flow diagrams of aspects of code.　| I drew FLOW diagrams for the MVP, the server code, and the overall code. | 200min | Dec 7 |A
-| | Find out the appropriate temperature and humidity for human living | To obtain criteria for determining appropriate/inappropriate humidity and temperature levels on the UWC ISAK campus | 30 min |Dec 7 | B
-|  |Collect data from outdoor sensors|To compare outdoor indoor temperature changes from the posted data. |    180 min | Dec 7 | A
-| | Create coding to graph school and room temperature and humidity data | Create a scatter plot graph using a nonlinear best-fit function|110 min | Dec 8 | B
-|  |Pilot graphing of data | Use outdoor data and apply it to the code you have created. | 50 min | Dec 8 | A
-|  |Coding prototype graphing for one specific data | When plotting graphs from all sensors and the average of one specific set of data (room temperature)| 80 min | Dec 9 | B
-|   |Outline video outlines, summarize data and images, and present the final product/solution.| Gather all information necessary to create an organized video to showcase the product. | 80 min | Dec 9 | B
-|  | Find out how to write a science poster | Research to write to cover the Criteria | 50 min | Dec 9 |A
+|       | meet with client　  | Talk with the client to dicuss the problems they are facing and brainstorm solutions to create a plan to help the client resolve the problems　|  15min | Nov 22| A|
+|       |Brainstorm and write the problem definition| Both write problem definition and organize files for this program in githab| 30min| Nov 22 |B|
+|       | Wirte Design statement | A clear outline of the final goal of the project and the components to be completed | 60min |Nov 23||
+|       | Gathering materials and assigning tasks to the scope of work |Procure the materials needed to build the equipment to measure temperature and humidity in the dormitory and bring the materials back home with the sole intention of building a weather station for the client  | 60min |Nov||
+|       |Write the Problem context             |we understood how the code works          |  10min          |  Nov 24         | A |
+|       |research about raspberry pi                      |research about raspberry pi features and benefits and what can be implemented          |  25min         |  Nov 29         | A|
+|        |Write code for program                           |  We wrote code so that the sensor could periodically measure humidity and temperature.        |  45min          |  Nov 30         | A |
+|    |Test run for sensor |Write and run a code that measures once every 5 seconds for testing.| 60min | Nov 30| A|
+|    |We wired the raspberry pi, sensors and raspberry pi| Using a breadboard, I was able to wire accurately | 45min | Nov 30| A |
+|    |Connect raspberry pi to computer and test run of sensors. | Check that the connection between the sensor and the Raspberry Pi is made properly. Complete the temporary assembly of the device. | 80 min | Dec 1 | A|
+|    |Create MVP | After confirming that the basic structure and function of the product is working properly, we move on to the final finished product. | 80 min | B||
+|    |  Register user to server and obtain access code. | Create a user with a secure username and password to access the server. Obtain an access code to log in to the server and be able to post | 70min | Dec 1 | C|
+|    |We wired the raspberry pi, sensors and raspberry pi| Using a breadboard, I was able to wire accurately | 45min | Dec 1| A|
+|    | Make cron tab |This is to ensure that DHT's sensors send data to the computer at 5 minute intervals.	| 45 min | Dec 1 |C|
+|    |Create a system that "uploads the obtained data to the server | Transmits humidity and temperature data to server every 5 minutesv    |  120min  | Dec 3 |B|
+|   |Run code for 48 hours in order to collect temperature and humidity data in R2-12 A.| Take R2-12A humidity and temperature data at 5-minute intervals for 48 hours.| 48 hrs |Dec 3-5 |C|
+| |Unexplained trouble, code stops.And fixed|It was discovered that the WIfi connection had been lost in the process. Additional necessary tools were installed to solve the problem.|  210 min |Dec 6 |B|
+|   | Draw 3 flow diagrams of aspects of code.　| I drew FLOW diagrams for the MVP, the server code, and the overall code. | 200min | Dec 7 |A|
+| | Find out the appropriate temperature and humidity for human living | To obtain criteria for determining appropriate/inappropriate humidity and temperature levels on the UWC ISAK campus | 30 min |Dec 7 | B|
+|  |Collect data from outdoor sensors|To compare outdoor indoor temperature changes from the posted data. |    180 min | Dec 7 | A|
+| | Create coding to graph school and room temperature and humidity data | Create a scatter plot graph using a nonlinear best-fit function|110 min | Dec 8 | B|
+|  |Pilot graphing of data | Use outdoor data and apply it to the code you have created. | 50 min | Dec 8 | A|
+|  |Coding prototype graphing for one specific data | When plotting graphs from all sensors and the average of one specific set of data (room temperature)| 80 min | Dec 9 | B|
+|   |Outline video outlines, summarize data and images, and present the final product/solution.| Gather all information necessary to create an organized video to showcase the product. | 80 min | Dec 9 | B|
+|  | Find out how to write a science poster | Research to write to cover the Criteria | 50 min | Dec 10 |A|
+| | Update show your CT | To increase the thinking power of the computer by updating pattern recognition and decomposition | 30 min | Dec 13 |B|
+| | Create scientific poster | To clearly present the background information, methodologies, materials, results, analysis and conclusion for the client. | 80 min | Dec 11-13 |B|
+| | Video Creation | Demonstrate how the finished product works, explain how the product met the success criteria, and clearly describe the project. | 40 min | Dec 13 |A|
+| | Finish updating project repository | Cover all the essentials and do it by the submission deadline | 50 min | Dec 13 |A|
 
 
 ## Test Plan
 | Software Test Type | Input | Process | Planned Output  |
-|------|-------------|----------|---------|
+|------|-------------|:---------|:--------|
 | Integration Testing | Raspberry Pi and VNC Viewer | Download Raspberry Pi, VNC Viewer, vnc viewer, enter the address of the raspberry pi in the vnc viewer, access the raspberry pi using the username and password from the VNC viewer. | Authenticate the user name and password in the VNC viewer to be able to connect remotely to the Raspberry Pi. |
-| Unit Testing | Code to receive information from DHT sensor | Run code and wait for output from DHT sensor. | Verify that the DHT sensor is functioning properly.|program will print if the sensor is working , and if the sens
-| Unit testing | Code to obetain data from DHT11s (MVP) | Run code and Input pin number odf senser(4,17,22,27)when primopted by program | program will print if the sensor is working , and if the sensor is working, the data from the sensor to the terminal
-|
+| Unit Testing | Code to receive information from DHT sensor | Run code and wait for output from DHT sensor. | Verify that the DHT sensor is functioning properly.|
+| Unit testing | Code to obetain data from DHT11s (MVP) | Run code and Input pin number odf senser(4,17,22,27)when primopted by program | program will print if the sensor is working , and if the sensor is working, the data from the sensor to the terminal|
+| Performance   Testing | MVP code | Run code and Input PIN number of sensor(4,17,22,27)when prompted by program and Measure time until output is printed on the the terminal | Code will collect data and desply an output on the termrinal in 5 seconds |
+| Integration Testing | Bash program and Main program | Run code and Wait and see if data is being added to the JSON file every minutes. | Temperature and humiditiy data from all four sensors should be appended to the same JSON file with datatime |
+| Unit  Testing | Code for writing to JSON files | Run code | Date wil collected from sensors and formatted and finally inserted into the JSON file along with the date time and sensor_id |
+| Unit Testing | Graphing Code | Run code and wait for graph to appear and Reference JSON file to compare accuracy of data | Graph and respective statistics should line up with data from JSON file |
+ 
+
 # Criteria C: Development
 
 ### List of techniques used
@@ -107,8 +116,22 @@ We stored the temperature and humidity data  in both seperate database csv files
 | Predicting temperature and humidity values based on line of best fit equation (non linear model). |
 | Smoothing data on a graph. |
 
+### Existing tools:
 
-### Development
+| Software/development tools | coding structure tools |  Libraries   |
+| :------------------------: | :--------------------: | :----------: |
+|       Python/Pycharm       |       for loops        |   datetime   |
+|         VNC viewer         |      API requests      |   requests   |
+|                            |                        |     csv      |
+|                            |                        | Adafruit_DHT |
+|                            |                        |  matplotlib  |
+|                            |                        |    numpy     |
+
+## Computational Thinking
+
+#### Decomposition
+
+Decomposition is the process of breaking a task into smaller, tractable problems. In the Project 2 code, the skill of decomposition can always be seen at large and small scales.
 
 ### Main File
 ```.py
@@ -231,6 +254,10 @@ for i in r.json():
     print(i)
 
 ```
+
+
+
+
 # Criteria D: Functionality
 
 A 7 min video demonstrating the proposed solution with narration
