@@ -392,7 +392,7 @@ a= 1.1560766498859011e-07 b= -0.0001567440266767569 c= 0.0528467669108278 d= 21.
 a= -2.0075182536069003e-07 b= 0.00032877661011873274 c= -0.12436927725233127 d= 35.786378839051544
 ```
 
-
+![outdoordata.png](outdoordata.png)
 # Criteria D: Functionality
 
 A 7 min video demonstrating the proposed solution with narration
