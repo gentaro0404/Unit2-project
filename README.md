@@ -255,7 +255,8 @@ for i in r.json():
     print(i)
     
 ```
-
+### Get data from school server and raw data plotting
+We need to retrieve the temperature and humidity data collected by the school's sensors from the server and store it in a csv file. The code below shows how to access one raw data set and plot it on a scatter plot. The graph will look like this
 ```.py
 from matplotlib import pyplot as plt
 import requests
@@ -359,6 +360,34 @@ plot('hum')
 plt.ylabel('red = tempareture(C)\nblue = humidity(%)')
 plt.title('outdoor data')
 plt.show()
+```
+
+```.py
+mean of temp: 24.6
+
+standad deviation of temp: 2.02
+
+mean of hum: 26.7
+
+standad deviation of hum: 4.58
+
+minimum value of temp: 18.0
+
+minimum value of hum: 20.0
+
+maximum value of temp: 29.0
+
+maximum value of hum: 44.0
+
+the median of temp: 25.0
+
+the median of hum: 25.0
+
+the equasion for the graph and prediction: ax^3 + bx^2 + cx + d
+
+a= 1.1560766498859011e-07 b= -0.0001567440266767569 c= 0.0528467669108278 d= 21.234353936698792
+
+a= -2.0075182536069003e-07 b= 0.00032877661011873274 c= -0.12436927725233127 d= 35.786378839051544
 ```
 
 
