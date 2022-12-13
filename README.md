@@ -517,6 +517,62 @@ def graph(a):
 graph(value_temp)
 ```
 
+### Raw data
+Derived from data, statistical data
+```.py
+the average of temp is 24.6875
+the average of hum is 21.786024305555557
+the standad deviation of average hum is 82.452322081714
+the minimum value of average temp is 18.5
+the minimum value of average hum is 20.0
+the maximum value of average temp is 28.0
+the maximum value of average hum is 52.0
+the median of average temp is 25.0
+the median of average hum is 20.0
+function for t1
+-1.3366302570644902e-07 0.00013040309800325963 -0.02947645666034394 25.263200665509498
+
+function for t2
+-1.4960101604489952e-07 0.00014012467054260225 -0.03003877805614878 25.241554162508606
+
+function for t3
+-1.2605386785874063e-07 0.00011463948793833798 -0.021809425632876692 24.065657445186066
+
+function for t4
+-1.8524444141981163e-07 0.00015913163539969327 -0.03046560323093323 24.587966351823543
+
+function for h1
+1.590675798723074e-07 -0.00017329649078573966 0.048258985284268356 19.884673144319873
+
+function for h2
+1.799170895239079e-07 -0.0001606946446169988 0.039072404116739734 18.943481157589392
+
+function for h3
+-7.804013933912029e-08 0.00010278678629683801 -0.03177265137300652 22.680720274635206
+
+function for h4
+1.4753813620259307e-07 -7.08959508039189e-05 0.014504431361656557 19.36712353683
+```
+
+![average hum.JPG](average hum.JPG)
+**Fig.7** 
+Graph of average, minimum, maximum, and median outdoor humidity and temperature
+
+![average temp.JPG](average temp.JPG)
+
+**Fig.8** 
+Graph of average, minimum, maximum, and median outdoor humidity and temperature
+
+![temperature for each sensor.JPG](temperature for each sensor.JPG)
+
+**Fig.9** 
+Graph of average, minimum, maximum, and median outdoor humidity and temperature
+
+![humidity for each sensor.JPG](humidity for each sensor.JPG)
+
+**Fig.10** 
+Graph of average, minimum, maximum, and median outdoor humidity and temperature
+
 # Criteria D: Functionality
 
 A 7 min video demonstrating the proposed solution with narration
