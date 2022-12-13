@@ -259,7 +259,8 @@ for i in r.json():
     
 ```
 ## Ouｔside deta
-From the raw data, make two lists, get the data from the school's server, divide the data into dictionary temperature and humidity, and obtain from the dictionary the Humidity and Temperature levels for each Local and Remote locations including mean, minimum, maximum, and median, The values of mean, standad deviation, minimum, maximum, and median are obtained from the dictionaries.
+Create two lists from the raw data, retrieve the data from the school's server, split the data into dictionary temperature and humidity, and retrieve the average, minimum, maximum, and median of humidity and temperature levels from the dictionary.
+
 
 ```.py
 from matplotlib import pyplot as plt
@@ -396,9 +397,11 @@ a= -2.0075182536069003e-07 b= 0.00032877661011873274 c= -0.12436927725233127 d= 
 ```
 
 ![outdoordata.png](outdoordata.png)
+**Fig.6** 
+Graph of average, minimum, maximum, and median outdoor humidity and temperature
 
 ## Indoor data
-From the raw data, we created two dictionaries, Temperature and Humidity. For each of them, we put the data from the four sensors. Then, in the dictionary of values, find the average of the data from the four sensors. Then, from the data, find the Humidity and Temperature levels for each Local and Remote location including mean, standad deviation, minimum, maximum, and median.
+From the raw data, we created two dictionaries, one for "temperature" and one for "humidity". For each, we included data from four sensors. The dictionary of values then finds the average of the data from the four sensors. Then, from the data, the levels of Local, Humidity and Temperature are obtained with mean, standard deviation, minimum, maximum and median.
 
 ```.py
 from matplotlib import pyplot as plt
