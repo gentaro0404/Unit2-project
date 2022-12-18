@@ -581,3 +581,4 @@ humidity obtained from the average value of each of the four sensors for 48 hour
 **Fig.11 Scientific Poster documenting the objective, methodologies and conclusions of our Weather Station project**
 
 A 7 min video demonstrating the proposed solution with narration
+https://youtu.be/ZpsC0RWipTw
